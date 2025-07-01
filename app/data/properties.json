@@ -1,0 +1,148 @@
+{
+  "properties": [
+    {
+      "id": "1",
+      "title": "Modern Downtown Apartment",
+      "address": "123 Main Street, New York, NY 10001",
+      "price": 750000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "sqft": 1200,
+      "type": "Apartment",
+      "status": "For Sale",
+      "images": [
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=400&h=300&fit=crop"
+      ],
+      "description": "Beautiful modern apartment in the heart of downtown with stunning city views and premium finishes.",
+      "features": ["City View", "Modern Kitchen", "Hardwood Floors", "In-unit Laundry"],
+      "yearBuilt": 2020,
+      "listingDate": "2024-12-01",
+      "agent": {
+        "name": "Sarah Johnson",
+        "phone": "(555) 123-4567",
+        "email": "sarah@realty.com"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Luxury Suburban Home",
+      "address": "456 Oak Avenue, Westfield, NJ 07090",
+      "price": 1250000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 2800,
+      "type": "House",
+      "status": "For Sale",
+      "images": [
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=400&h=300&fit=crop"
+      ],
+      "description": "Spacious family home with large backyard, perfect for entertaining. Recently renovated with high-end appliances.",
+      "features": ["Large Backyard", "Granite Countertops", "Walk-in Closets", "2-Car Garage"],
+      "yearBuilt": 2015,
+      "listingDate": "2024-11-28",
+      "agent": {
+        "name": "Michael Chen",
+        "phone": "(555) 987-6543",
+        "email": "michael@realty.com"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Cozy Studio Loft",
+      "address": "789 Artist Way, Brooklyn, NY 11201",
+      "price": 485000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "sqft": 650,
+      "type": "Loft",
+      "status": "For Sale",
+      "images": [
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=300&fit=crop"
+      ],
+      "description": "Artistic loft space with exposed brick walls and large windows. Perfect for creative professionals.",
+      "features": ["Exposed Brick", "High Ceilings", "Large Windows", "Creative Space"],
+      "yearBuilt": 1985,
+      "listingDate": "2024-12-03",
+      "agent": {
+        "name": "Emma Rodriguez",
+        "phone": "(555) 456-7890",
+        "email": "emma@realty.com"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Waterfront Condo",
+      "address": "321 Harbor View Drive, Miami, FL 33101",
+      "price": 950000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "sqft": 1650,
+      "type": "Condo",
+      "status": "For Sale",
+      "images": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&h=300&fit=crop"
+      ],
+      "description": "Stunning waterfront condo with panoramic ocean views and resort-style amenities.",
+      "features": ["Ocean View", "Balcony", "Pool Access", "Concierge"],
+      "yearBuilt": 2018,
+      "listingDate": "2024-11-30",
+      "agent": {
+        "name": "David Martinez",
+        "phone": "(555) 234-5678",
+        "email": "david@realty.com"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Historic Townhouse",
+      "address": "654 Heritage Lane, Boston, MA 02108",
+      "price": 1100000,
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "sqft": 2200,
+      "type": "Townhouse",
+      "status": "For Sale",
+      "images": [
+        "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&h=300&fit=crop"
+      ],
+      "description": "Charming historic townhouse with original details and modern updates in prestigious neighborhood.",
+      "features": ["Historic Character", "Fireplace", "Private Garden", "Crown Molding"],
+      "yearBuilt": 1890,
+      "listingDate": "2024-12-02",
+      "agent": {
+        "name": "Lisa Thompson",
+        "phone": "(555) 345-6789",
+        "email": "lisa@realty.com"
+      }
+    },
+    {
+      "id": "6",
+      "title": "Modern Ranch Home",
+      "address": "987 Sunset Boulevard, Los Angeles, CA 90210",
+      "price": 1850000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "sqft": 3200,
+      "type": "House",
+      "status": "For Sale",
+      "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=400&h=300&fit=crop"
+      ],
+      "description": "Contemporary ranch-style home with open floor plan and stunning mountain views.",
+      "features": ["Mountain View", "Open Floor Plan", "Smart Home", "Pool"],
+      "yearBuilt": 2021,
+      "listingDate": "2024-11-29",
+      "agent": {
+        "name": "Robert Kim",
+        "phone": "(555) 567-8901",
+        "email": "robert@realty.com"
+      }
+    }
+  ]
+}

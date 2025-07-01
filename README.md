@@ -100,6 +100,44 @@ You can then promote a version to production after verification or roll it out p
 npx wrangler versions deploy
 ```
 
+## Test Routes
+
+This project includes the following test routes:
+
+*   `/test-simple`: A simple test route that fetches and displays property data.
+*   `/test-property/:id`: A route that displays detailed information for a specific property.
+*   `/test2-property/:id`: An alternative version of the property details route.
+
+These routes use mock data from `app/data/properties.json`.
+
+## Environment Variables and Secrets
+
+For Cloudflare deployments, you can manage environment variables and secrets using the Cloudflare dashboard or the `wrangler` CLI.
+
+### Using the Cloudflare Dashboard
+
+1.  Go to your Worker in the Cloudflare dashboard.
+2.  Navigate to the "Settings" tab.
+3.  Click on "Variables".
+4.  Add your environment variables and secrets here. For secrets, make sure to encrypt them.
+
+### Using the `wrangler` CLI
+
+You can add secrets using the following command:
+
+```bash
+wrangler secret put <SECRET_NAME>
+```
+
+You will be prompted to enter the secret value.
+
+To add environment variables, you can add them to your `wrangler.toml` file:
+
+```toml
+[vars]
+MY_VARIABLE = "my-value"
+```
+
 ## Styling
 
 This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
