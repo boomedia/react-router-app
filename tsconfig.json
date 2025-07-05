@@ -9,6 +9,21 @@
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
     "strict": true,
-    "noEmit": true
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "app/*"
+      ],
+      "~/components/*": [
+        "app/components/*"
+      ],
+      "~/lib/*": [
+        "app/lib/*"
+      ],
+      "~/hooks/*": [
+        "app/hooks/*"
+      ]
+    }
   }
 }
